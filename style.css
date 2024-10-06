@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-family: "Open Sans", sans-serif;
+    color: #1B1B1B;
+}
+
+#page {
+    box-sizing: border-box;
+    width: 1120px;
+    margin: 88px auto 65px;
+    /* background-color: #F0E8C2; */
+    height: 3054px;
+}
+
+header {
+    color: #E1624F;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: auto;
+    text-align: left;
+}
+
+.headline {
+    margin-bottom: 8px;
+}
+
+.title {    /* class do h1*/
+    font-weight: bold;
+    font-size: 36px;
+    color: #1B1B1B;
+    text-transform: capitalize;
+    line-height: auto;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.img-busan {
+    margin-bottom: 24px;
+    border-radius: 28px;
+}
+
+figcaption {
+    color: #333333;
+    font-size: 16px;
+    font-style: italic;
+    line-height: auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+section {
+    padding-top: 64px;
+    margin-bottom: 2px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.p-card {
+    color: #333333;
+    font-size: 16px;
+    line-height: auto;
+    text-align: left;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 4px;
+    padding-left: 10px;
+}
+
+.card {
+    border-radius: 28px;
+    margin-top: 48px;
+    margin-bottom: 20px;
+}
+
+.p-indication {
+    color: #333333;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+ol {
+    margin-top: 16px;
+}
+
+
+ul {
+    padding-left: 24px;
+}
+
+.li1 {
+    color: #0C51A7;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.li2 {
+    color: #591B98;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.li3 {
+    color: #E5245E;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.li4 {
+    color: #E95E10;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.divisor {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.p-descrition {
+    color: #333333;
+    font-size: 16px;
+    text-align: center;
+}
+
+footer {
+    color: #333333;
+    font-family: "Alice", serif;
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 48px;
+}
+
+footer img {
+    vertical-align: middle; /* alinhar a img ao texto, Depois de aprender FLEX, atualizar aqui */
+}
